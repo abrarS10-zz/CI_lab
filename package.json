@@ -1,0 +1,22 @@
+{
+  "name": "ci_lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main/server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2",
+    "chai": "^4.2.0",
+    "supertest": "^4.0.2",
+    "chai-as-promised": "^7.1.1"
+
+  },
+  "scripts": {
+    "start": "node src/main/app.js",
+    "test": "node ./node_modules/mocha/bin/mocha --exit \"src/test/cases/**/*.js\""
+  },
+  "author": "Abrar Sajeel",
+  "license": "ISC"
+}
